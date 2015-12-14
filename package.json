@@ -1,0 +1,26 @@
+{
+  "name": "@n3dst4/twelve-days-of-xmas-kata",
+  "version": "1.0.0",
+  "description": "See http://craig.goddenpayne.co.uk/2015/12/12-days-of-christmas-code-kata.html",
+  "author": "Neil de Carteret <npm@lumphammer.com>",
+  "license": "ISC",
+  "main": "__build/twelve-days-of-xmas-kata.js",
+  "browser": "src/twelve-days-of-xmas-kata.js",
+  "scripts": {
+    "prepublish": "babel src --out-dir __build --source-maps inline",
+    "test": "mocha",
+    "start": "babel-node src/twelve-days-of-xmas-kata.js"
+  },
+  "dependencies": {
+    "babel": "^5.8.23"
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.0.5",
+    "eslint": "^1.1.0",
+    "chai": "^3.2.0",
+    "mocha": "^2.3.2"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended"
+  }
+}
