@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 
 const pressies = [
   "And a partridge in a pear tree.",
