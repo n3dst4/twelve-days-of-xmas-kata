@@ -11,10 +11,13 @@
     "test": "mocha",
     "start": "babel-node src/twelve-days-of-xmas-kata.js"
   },
+  "bin": {
+    "n3dst4-twelve-days-of-xmas-kata": "./__build/twelve-days-of-xmas-kata.js"
+  },
   "dependencies": {
-    "babel": "^5.8.23"
   },
   "devDependencies": {
+    "babel": "^5.8.23",
     "babel-eslint": "^4.0.5",
     "eslint": "^1.1.0",
     "chai": "^3.2.0",
