@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
-import {pressies,dayOnePressie, introStart, introEnd, ordinals} from "./strings"
+import {pressies, dayOnePressie, introStart, introEnd, ordinals}
+  from "./strings"
 
 export default function main () {
   return [...Array(13).keys()].slice(1). // aka range(1, 13)
