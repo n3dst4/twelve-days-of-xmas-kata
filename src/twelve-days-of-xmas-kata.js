@@ -1,24 +1,6 @@
 #!/usr/bin/env node
 
-const pressies = [
-  "And a partridge in a pear tree.",
-  "Two turtle doves,",
-  "Three french hens,",
-  "Four calling birds,",
-  "Five golden rings,",
-  "Six geese-a-laying,",
-  "Seven swans-a-swimming,",
-  "Eight maids-a-milking,",
-  "Nine ladies dancing,",
-  "Ten lords-a-leaping,",
-  "Eleven pipers piping,",
-  "Twelve drummers drumming,",
-]
-const dayOnePressie = "A partridge in a pear tree."
-const introStart = "On the"
-const introEnd = "day of Christmas,\nMy true love gave to me,\n"
-const ordinals = ["zeroth", "first", "second", "third", "fourth", "fifth",
-  "sixth", "seventh", "eighth", "ninth", "tenth", "eleventh", "twelfth"];
+import {pressies,dayOnePressie, introStart, introEnd, ordinals} from "./strings"
 
 export default function main () {
   return [...Array(13).keys()].slice(1). // aka range(1, 13)
