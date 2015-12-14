@@ -1,6 +1,6 @@
 {
   "name": "@n3dst4/twelve-days-of-xmas-kata",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "See http://craig.goddenpayne.co.uk/2015/12/12-days-of-christmas-code-kata.html",
   "author": "Neil de Carteret <npm@lumphammer.com>",
   "license": "ISC",
@@ -14,8 +14,7 @@
   "bin": {
     "n3dst4-twelve-days-of-xmas-kata": "./__build/twelve-days-of-xmas-kata.js"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel": "^5.8.23",
     "babel-eslint": "^4.0.5",
