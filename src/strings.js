@@ -3,7 +3,7 @@ export const pressies = [
   "Two turtle doves,",
   "Three french hens,",
   "Four calling birds,",
-  "Five golden rings,",
+  "FIVE GOLDEN RINGS,",
   "Six geese-a-laying,",
   "Seven swans-a-swimming,",
   "Eight maids-a-milking,",
